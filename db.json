@@ -1,0 +1,152 @@
+{
+  "workouts": [
+    {
+      "id": 1,
+      "name": "Push-up",
+      "level": "Beginner",
+      "sets": 3,
+      "reps": 15,
+      "equipment": "None",
+      "description": "Bodyweight exercise targeting chest, shoulders, and triceps."
+    },
+    {
+      "id": 2,
+      "name": "Squats",
+      "level": "Intermediate",
+      "sets": 4,
+      "reps": 12,
+      "equipment": "Barbell",
+      "description": "Compound movement for legs, targeting quadriceps, hamstrings, and glutes."
+    },
+    {
+      "id": 3,
+      "name": "Deadlifts",
+      "level": "Expert",
+      "sets": 5,
+      "reps": 10,
+      "equipment": "Barbell",
+      "description": "Powerlifting exercise targeting lower back, hamstrings, and glutes."
+    },
+    {
+      "id": 4,
+      "name": "Plank",
+      "level": "Beginner",
+      "sets": 3,
+      "reps": "Hold for 30 seconds",
+      "equipment": "None",
+      "description": "Isometric core exercise for building strength and stability."
+    },
+    {
+      "id": 5,
+      "name": "Bench Press",
+      "level": "Intermediate",
+      "sets": 4,
+      "reps": 10,
+      "equipment": "Barbell",
+      "description": "Upper body exercise targeting chest, shoulders, and triceps."
+    },
+    {
+      "id": 6,
+      "name": "Pull-ups",
+      "level": "Expert",
+      "sets": 5,
+      "reps": "As many as possible",
+      "equipment": "Pull-up bar",
+      "description": "Bodyweight exercise for building back and biceps strength."
+    },
+    {
+      "id": 7,
+      "name": "Lunges",
+      "level": "Intermediate",
+      "sets": 3,
+      "reps": 12,
+      "equipment": "None",
+      "description": "Single-leg exercise targeting quadriceps, hamstrings, and glutes."
+    },
+    {
+      "id": 8,
+      "name": "Crunches",
+      "level": "Beginner",
+      "sets": 3,
+      "reps": 15,
+      "equipment": "None",
+      "description": "Abdominal exercise for strengthening the core."
+    },
+    {
+      "id": 9,
+      "name": "Military Press",
+      "level": "Expert",
+      "sets": 4,
+      "reps": 10,
+      "equipment": "Barbell",
+      "description": "Shoulder exercise focusing on deltoids and trapezius."
+    },
+    {
+      "id": 10,
+      "name": "Leg Press",
+      "level": "Intermediate",
+      "sets": 4,
+      "reps": 12,
+      "equipment": "Leg press machine",
+      "description": "Machine-based exercise for targeting leg muscles."
+    },
+    {
+      "id": 11,
+      "name": "Dumbbell Rows",
+      "level": "Expert",
+      "sets": 4,
+      "reps": 12,
+      "equipment": "Dumbbells",
+      "description": "Back exercise using dumbbells for unilateral movement."
+    },
+    {
+      "id": 12,
+      "name": "Russian Twists",
+      "level": "Intermediate",
+      "sets": 3,
+      "reps": 20,
+      "equipment": "None",
+      "description": "Abdominal exercise with rotational movement."
+    },
+    {
+      "id": 13,
+      "name": "Calf Raises",
+      "level": "Beginner",
+      "sets": 3,
+      "reps": 15,
+      "equipment": "None",
+      "description": "Exercise for strengthening the calf muscles."
+    },
+    {
+      "id": 14,
+      "name": "Hammer Curls",
+      "level": "Intermediate",
+      "sets": 3,
+      "reps": 12,
+      "equipment": "Dumbbells",
+      "description": "Bicep exercise with a neutral grip using dumbbells."
+    },
+    {
+      "id": 15,
+      "name": "Tricep Dips",
+      "level": "Expert",
+      "sets": 3,
+      "reps": 15,
+      "equipment": "Parallel bars",
+      "description": "Tricep exercise using parallel bars for bodyweight resistance."
+    },
+    {
+      "name": "123",
+      "level": "Beginner",
+      "sets": "2",
+      "reps": "1",
+      "equipment": "asc",
+      "muscles": [
+        "asd"
+      ],
+      "description": "ascas",
+      "id": 16
+    }
+  ],
+  "userWorkouts": []
+}

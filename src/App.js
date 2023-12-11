@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Container } from 'react-bootstrap';
+import WorkoutList from './components/WorkoutList';
+import WorkoutForm from './components/WorkoutForm';
+import NotFound from './NotFound';
 
-function App() {
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+        <Container className="mt-4">
+          <Router>
+              <Routes>
+                <Route path="/" element={<WorkoutList />} />
+                <Route path="/add" element={<WorkoutForm />} />
+                <Route path="*" element={<NotFound />} />
+              </Routes>
+          </Router>
+        </Container>
     </div>
+
   );
-}
+};
 
 export default App;
